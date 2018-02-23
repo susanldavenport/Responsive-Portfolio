@@ -1,0 +1,400 @@
+
+a{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../images/grey-jean.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+header{
+    background-color: #ffffff;
+    height: 107px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    border-bottom: #cccccc solid 2px;
+}
+
+#title{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    padding: 13.5px;
+    margin-left: 30px;
+}
+
+nav{
+    width:100%;
+    background-color: #ffffff;
+    text-align: right;
+}
+
+#navbar ul{
+    padding-top: 38px;
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+}
+
+#navbar li{
+    display: inline;
+    padding: 15px;
+}
+
+#navbar a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+/* ^^^ css elements for Header and Nav ALL pages ^^^  */
+
+/* vvv css elements for H tags and class tags vvv */
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding: 10px;
+    margin: 0;
+    border-bottom: #ebebeb solid 3px;
+}
+
+h3{
+    font-size: 18px;
+    color: #777;
+}
+
+.container{
+    max-width: 960px;
+    margin: auto;
+}
+
+/* vvv css elements for about page vvv */
+
+#main-section{
+    float: left;
+    width: 650px; 
+    margin: 50px 0;
+    background-color: #ffffff;
+    color: #777777;
+    border: #ffffff solid 4px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#main-section img{
+    float: left;
+    padding: 12px 0px;
+    padding-right: 12px;
+}
+
+/* css elements for sidebar ALL pages */
+
+#sidebar{
+    float: right;
+    width: 270px;
+    margin: 50px 0;
+    padding: 20px 15px;
+    padding-bottom: 20px;
+    border: #ebebeb solid 2px;
+    text-align: center;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.social-icons{
+    margin-top: 20px;
+}
+
+/* vvv css elements for contact form vvv */
+
+form{
+    padding: 20px 30px;
+    color: #777777;
+    line-height: 2.2em;
+    width: 650px;
+    margin: auto;
+
+}
+#form-box{
+    float: left;
+    width: 650px;
+    background-color: #ffffff;
+    margin: 50px 0;
+    border: #ebebeb solid 1px;
+    box-sizing: border-box;
+}
+
+#form-title{
+    padding: 20px 15px;
+}
+
+input{
+    width: 575px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 10px
+}
+
+textarea{
+    width: 575px;
+    height: 200px;
+    border-radius: 5px; 
+}
+
+button{
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+/* vvv css elements for portfolio page vvv */
+
+#portfolio-box{
+    float: left;
+    position: relative;
+    width: 650px;
+    height: 940px;
+    background-color: #ffffff;
+    margin: 50px auto;
+    border: #ebebeb solid 1px;
+}
+
+#portfolio-title{
+    padding: 20px 15px;
+}
+
+#portfolio-images{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#photo-1{
+    position: absolute;
+    float: left;
+    margin: 20px 30px;
+    width: 40%;
+}
+
+#photo-2{
+    position: relative;
+    float: right;
+    margin: 20px 30px;
+    width: 40%;
+}
+
+#photo-3{
+    position: relative;
+    float: left;
+    margin: 20px 30px;
+    width: 40%;
+}
+
+#photo-4{
+    position: relative;
+    float: right;
+    margin: 20px 30px;
+    width: 40%;
+}
+
+#photo-5{
+    position: relative;
+    float: left;
+    margin: 20px 30px;
+    width: 40%;
+}
+
+.project-title{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    z-index: 2;
+    padding-top: 10px;
+    width: 265px;
+    height: 45px;
+}
+/* vvv css elements for footer/ ALL pages vvv */
+
+footer{
+    clear: both;
+    width: 100%;
+    text-align-last: center;
+    color: #ffffff;
+    font-size: 12px;
+    background-color: #777777;
+    border-top: #4aaaa5 solid 8px;
+    padding: 50px 0px 10px 0px; 
+    }
+
+    @media screen and (max-width:980px) {
+
+    }
+
+
+    @media screen and (max-width:768px) {
+        .container{
+            width: 100%;
+        }
+
+        #main-section{  
+            width: 90%; 
+            float: none;
+            margin: 50px 30px;
+            background-color: #ffffff;
+            color: #777777;
+            border: #ffffff solid 4px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #portfolio-box{  
+            width: 90%; 
+            float: none;
+            margin: 50px 30px;
+            background-color: #ffffff;
+            color: #777777;
+            border: #ffffff solid 4px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #form-box{  
+            width: 90%; 
+            float: none;
+            margin: 50px 30px;
+            background-color: #ffffff;
+            color: #777777;
+            border: #ffffff solid 4px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #sidebar{ 
+            width: 90%;
+            float: none;
+            margin-top: 20px;
+            margin-left: 30px;
+            clear: both;    
+    }
+
+    @media screen and (max-width:640px) {
+        
+        .container{
+            width: ;
+        }
+
+        h1{
+            font-size: 28px;
+        }
+
+        header{
+            height: 110px;
+            margin: 0;
+            text-align: center;
+        }
+
+        #title{
+            width: 100%;
+            margin: 0;
+            float: none;
+            padding: 4px;
+        }
+
+        nav{
+            width: 100%;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        #navbar ul{
+          display: block;
+          margin-right: 180px;
+          padding-top: 5px;
+        }
+
+        #box-1{
+            display: block;
+            padding: 5px 30%;
+            margin-top: 5px;
+            clear: both;
+        }
+
+        #bio{
+            display: block;
+            clear:both;
+        }
+
+        #main-section{ 
+            width: 90%; 
+            float: none;
+            margin: 30px;
+            background-color: #ffffff;
+            color: #777777;
+            border: #ffffff solid 4px;
+            padding: 20px;
+        }
+
+        #portfolio-box{  
+            width: 90%; 
+            margin: 30px;
+            background-color: #ffffff;
+            color: #777777;
+            border: #ffffff solid 4px;
+            padding: 25px 15px;
+            box-sizing: border-box;
+        }
+
+        #photo-1, #photo-2, #photo-3, #photo-4, #photo-5 {
+            margin: 5px 25px;
+           
+        }
+
+        #photo-1{
+            width: 
+        }
+
+        #form-box{  
+            width: 90%; 
+            float: none;
+            margin: 30px;
+            background-color: #ffffff;
+            color: #777777;
+            border: #ffffff solid 4px;
+            padding: 20px;
+        }
+
+        form{
+            padding: 20px 0px;
+            margin: 10px;
+        }
+
+        input{
+            width: 300px;
+        }
+
+        textarea{
+            width: 300px;
+        }
+
+        #sidebar{ 
+            width: 90%;
+            float: none;
+            margin-top: 20px;
+            margin-left: 30px;
+            clear: both;    
+    }
