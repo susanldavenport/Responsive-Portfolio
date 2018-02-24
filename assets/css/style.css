@@ -241,11 +241,64 @@ footer{
     padding: 50px 0px 10px 0px; 
     }
 
+
+    /* desktop */
     @media screen and (max-width:980px) {
+        .container{
+            width: 100%;
+        }
+        #main-section{  
+            width: 60%; 
+            margin: 30px 30px;
+            background-color: #ffffff;
+            color: #777777;
+            border: #ffffff solid 4px;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        #portfolio-box{  
+            width: 60%; 
+            margin: 50px 30px;
+            background-color: #ffffff;
+            color: #777777;
+            border: #ffffff solid 4px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #form-box{  
+            width: 60%;
+            margin: 50px 30px;
+            background-color: #ffffff;
+            color: #777777;
+            border: #ffffff solid 4px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #sidebar{ 
+            width: 30%;
+            margin-top: 50px;
+        }
+
+        form{
+            padding: 20px 0px;
+            margin: 10px;
+        }
+
+        input{
+            width: 450px;
+        }
+
+        textarea{
+            width: 450px;
+        }
+    }
 
     }
 
-
+    /* tablet screens */
     @media screen and (max-width:768px) {
         .container{
             width: 100%;
@@ -292,6 +345,7 @@ footer{
             clear: both;    
     }
 
+    /* iphone and mobile */
     @media screen and (max-width:640px) {
         
         .container{
@@ -355,17 +409,16 @@ footer{
             background-color: #ffffff;
             color: #777777;
             border: #ffffff solid 4px;
-            padding: 25px 15px;
+            padding: 10px 15px;
             box-sizing: border-box;
         }
 
-        #photo-1, #photo-2, #photo-3, #photo-4, #photo-5 {
-            margin: 5px 25px;
-           
+        img.responsive{
+            width: 210px;
         }
 
-        #photo-1{
-            width: 
+        .responsive {
+            width: 210px;
         }
 
         #form-box{  
@@ -384,11 +437,11 @@ footer{
         }
 
         input{
-            width: 300px;
+            width: 500px;
         }
 
         textarea{
-            width: 300px;
+            width: 500px;
         }
 
         #sidebar{ 
