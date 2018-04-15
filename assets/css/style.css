@@ -296,7 +296,6 @@ footer{
         }
     }
 
-    }
 
     /* tablet screens */
     @media screen and (max-width:768px) {
@@ -324,6 +323,11 @@ footer{
             border: #ffffff solid 4px;
             padding: 20px;
             box-sizing: border-box;
+        }
+
+        #portfolio-images{
+            width: 100%;
+            margin: 0px;
         }
 
         #form-box{  
@@ -397,37 +401,20 @@ footer{
             width: 90%; 
             float: none;
             margin: 30px;
-            background-color: #ffffff;
-            color: #777777;
-            border: #ffffff solid 4px;
             padding: 20px;
         }
 
         #portfolio-box{  
             width: 90%; 
             margin: 30px;
-            background-color: #ffffff;
-            color: #777777;
-            border: #ffffff solid 4px;
             padding: 10px 15px;
             box-sizing: border-box;
-        }
-
-        img.responsive{
-            width: 210px;
-        }
-
-        .responsive {
-            width: 210px;
         }
 
         #form-box{  
             width: 90%; 
             float: none;
             margin: 30px;
-            background-color: #ffffff;
-            color: #777777;
-            border: #ffffff solid 4px;
             padding: 20px;
         }
 
